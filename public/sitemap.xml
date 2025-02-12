@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+        <loc>http://localhost</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/about</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/contact</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/pricing</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/features</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/faq</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/privacy</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/terms</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/blogs</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/invoice-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/credit-note-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/purchase-order-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/quote-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/receipt-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/proforma-invoice-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/delivery-note-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/cv-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/payment-receipt-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/expense-report-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/business-card-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/job-offer-letter-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/certificate-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://localhost/agreement-generator</loc>
+        <lastmod>2025-02-11T20:16:23+00:00</lastmod>
+
+            </url>
+</urlset>
