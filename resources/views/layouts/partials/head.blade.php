@@ -19,10 +19,12 @@
     @if (file_exists(public_path('images/Logo.webp')))
         <link rel="preload" as="image" href="{{ asset('images/Logo.webp') }}" type="image/webp">
     @endif
-    <link rel="preload" as="style" href="{{ asset('css/app.css') }}">
-    <link rel="preload" as="script" href="{{ asset('js/app.js') }}">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"></noscript>
+    <link rel="preload" as="style" href="{{ Vite::asset('resources/css/app.css') }}">
+    <link rel="preload" as="script" href="{{ Vite::asset('resources/js/app.js') }}">
+    <!-- ✅ Preload Google Fonts for Faster Rendering -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"></noscript>
+
 
     <!-- ✅ Favicon & Icons -->
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
@@ -71,11 +73,15 @@
     }
     </script>
 
-    <!-- ✅ Google AdSense -->
+    @if (app()->environment('production'))
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2081671021537614" crossorigin="anonymous"></script>
+@endif
 
     <!-- ✅ Google Analytics -->
     @if(isset($setting->google_analytic_code))
         {!! $setting->google_analytic_code !!}
     @endif
+
+    <!-- ✅ Vite Assets for CSS & JS -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>

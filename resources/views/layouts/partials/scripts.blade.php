@@ -8,7 +8,7 @@
 
 <!-- ✅ Main Styles -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="{{ asset('css/app.min.css') }}"> <!-- Minified Custom CSS -->
+@vite(['resources/css/app.css']) <!-- Using Vite for custom CSS -->
 
 <!-- ✅ Load Bootstrap JS (Optimized) -->
 <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -49,13 +49,4 @@
 </script>
 
 <!-- ✅ Custom App JS (Deferred & Minified) -->
-@if (file_exists(public_path('assets/app.min.js')))
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const appScript = document.createElement("script");
-            appScript.src = "{{ asset('assets/app.min.js') }}";
-            appScript.defer = true;
-            document.body.appendChild(appScript);
-        });
-    </script>
-@endif
+@vite(['resources/js/app.js']) <!-- Using Vite for custom JavaScript -->
